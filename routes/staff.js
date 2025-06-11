@@ -61,7 +61,6 @@ router.get('/getAssignedServicesByServiceId', async (req, res) => {
     else {
       return res.json(service[0]);
     }
-    
   }
   catch(error){
     console.error('Error fetching assigned services by date:', error);
